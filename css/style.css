@@ -14,6 +14,7 @@ body{
     height: 100vh;
 }
 
+
 .heading-1{
     color: #ffffff;
     font-size: 4.2em;
@@ -39,12 +40,11 @@ body{
 }
 
 .section-3{
-    background-color: #333333;
+    background-color: #dddddd;
 }
 
 .sec3-col{
     background-color: #ffffff;
-    box-shadow: 0px 0px 14px 1px rgba(255, 255, 255, 1), 0 0px 10px 0px rgba(255, 255, 255, 1);
 }
 
 .heading2-sec3{
@@ -58,6 +58,23 @@ body{
     background-color: #0078ff;
     width: 100px;
     bottom: -12px;
+}
+
+#p-img2{
+    background: url('../images/pimg1.jpeg');
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+      
+    background-attachment: fixed;
+
+    height: 80vh;
+}
+
+.heading1-sec4{
+    font-size: 2.2rem;
+    color: #dddddd;
 }
 
 @media (max-width: 385px){
