@@ -3,7 +3,7 @@ body {
 }
 
 #hero {
-  background: url("../images/pimg1.jpeg");
+  background: url("../images/pexels-photo.jpg");
 
   background-position: center;
   background-size: cover;
@@ -31,24 +31,22 @@ body {
 }
 
 .heading-1 {
-  color: #ffffff;
+  letter-spacing: 0.8rem;
   font-size: 4.2em;
-  font-family: inherit;
+  font-family: "Staatliches", cursive;
+  background-color: white;
+  color: #333333;
+  opacity: 0.8;
 }
 
-.nav-bar a:hover::before {
-  content: "";
-  position: absolute;
-  height: 3px;
-  background-color: #0078ff;
-  width: 50px;
-  bottom: -1px;
+.nav-bar a:hover {
+  border-bottom: 2px solid white;
+  padding-bottom: 3px;
 }
-
 .heading-2 {
   color: #ffffff;
   font-size: 2.4em;
-  font-family: inherit;
+  font-family: "Staatliches", cursive;
 }
 
 .img-bio {
@@ -84,7 +82,7 @@ body {
 }
 
 #p-img2 {
-  background: url("../images/pimg1.jpeg");
+  background: url("../images/pexels-photo-169573.jpeg");
 
   background-position: center;
   background-size: cover;
@@ -97,11 +95,24 @@ body {
 
 .heading1-sec4 {
   font-size: 2.2rem;
-  color: #dddddd;
+  color: #ffffff;
+}
+
+.col-sec4 {
+  background-color: rgba(0, 0, 0, 0.677);
+  padding: 1rem;
+}
+
+.img-sec5 {
+  height: 190px;
 }
 
 .section-6 {
   background-color: #f7f7f7;
+}
+
+.sec6-ul {
+  line-height: 2rem;
 }
 
 ion-icon {
@@ -109,9 +120,21 @@ ion-icon {
 }
 
 .section-7 {
-  background-color: #bbbbbb;
+  background-color: #424242;
 }
 
+.ion-sec7 {
+  color: #0073b1;
+}
+
+.sec7-p {
+  color: #ffffff;
+  font-size: 1rem;
+}
+.icon-sec7 {
+  color: #ffffff;
+  padding: 3px;
+}
 .bg-trans {
   background-color: transparent;
 }

@@ -12,7 +12,7 @@
       crossorigin="anonymous"
     />
     <link
-      href="https://fonts.googleapis.com/css?family=Merienda"
+      href="https://fonts.googleapis.com/css?family=Staatliches"
       rel="stylesheet"
     />
     <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
@@ -21,9 +21,11 @@
   </head>
   <body>
     <div class="container-fluid">
-      <nav class="navbar position-absolute nav-bar mt-3">
+      <nav class="navbar position-absolute nav-bar mt-3 position-fixed">
         <div class="container">
-          <a href="" class="navbar-brand">PR</a>
+          <a href="" class="navbar-brand p-0 my-auto"
+            ><h2 class="m-0">PR</h2></a
+          >
           <div class="nav-div">
             <ul
               class="d-flex flex.column align-content-center justify-content-between m-0"
@@ -38,47 +40,48 @@
       </nav>
       <section
         id="hero"
-        class="row d-flex align-items-center position-relative"
+        class="row d-flex align-items-center justify-content-center position-relative"
       >
-        <div class="col-12 text-center">
-          <h1 class="heading-1">I am Priyansh Radadiya</h1>
-          <h2 class="heading-2">Full Stack Developer</h2>
+        <div class="col-6 text-center">
+          <h1 class="heading-1 py-2">Priyansh Radadiya</h1>
         </div>
       </section>
-      <section
-        class="container d-flex justify-content-center py-md-5 py-sm-2 align-items-center"
-      >
+      <section class="row">
         <div
-          class="row my-md-5 my-sm-2 d-flex justify-content-center py-md-5 py-sm-2 align-items-center"
+          class="container d-flex justify-content-center py-md-5 py-sm-2 align-items-center"
         >
-          <div class="col-md-5 col-sm-12 d-flex justify-content-center">
-            <div class="bg-img p-md-3">
-              <img class="img-bio" src="./images/pimg1.jpeg" alt="" />
+          <div
+            class="row my-md-5 my-sm-2 d-flex justify-content-center py-md-5 py-sm-2 align-items-center"
+          >
+            <div class="col-md-5 col-sm-12 d-flex justify-content-center">
+              <div class="bg-img p-md-3">
+                <img class="img-bio" src="./images/bio-img.jpg" alt="" />
+              </div>
             </div>
-          </div>
-          <div class="col-md-7 col-sm-12 justify-content-center">
-            <p class="lead">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id
-              quibusdam repellendus voluptas accusantium quis dolor veritatis
-              placeat, esse tempore culpa exercitationem totam eius vitae iusto
-              ipsum mollitia tenetur voluptatum architecto voluptate blanditiis
-              sapiente. Molestias corrupti voluptatum quam omnis nesciunt hic,
-              esse doloribus ullam nemo fugit repudiandae maiores eos
-              repellendus necessitatibus totam in ad eligendi nostrum impedit
-              odit dolorum, eum error qui autem. Saepe maiores fugiat harum
-              soluta. Doloremque ipsam in et ipsa blanditiis perferendis.
-              Numquam, dolores molestiae esse repellat voluptatem facere
-              officiis autem, nostrum, velit non eum eius enim quaerat nulla
-              minus error. Repudiandae necessitatibus vitae aut officiis eum
-              quisquam?
-            </p>
+            <div class="col-md-7 col-sm-12 justify-content-center">
+              <p class="lead">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id
+                quibusdam repellendus voluptas accusantium quis dolor veritatis
+                placeat, esse tempore culpa exercitationem totam eius vitae
+                iusto ipsum mollitia tenetur voluptatum architecto voluptate
+                blanditiis sapiente. Molestias corrupti voluptatum quam omnis
+                nesciunt hic, esse doloribus ullam nemo fugit repudiandae
+                maiores eos repellendus necessitatibus totam in ad eligendi
+                nostrum impedit odit dolorum, eum error qui autem. Saepe maiores
+                fugiat harum soluta. Doloremque ipsam in et ipsa blanditiis
+                perferendis. Numquam, dolores molestiae esse repellat voluptatem
+                facere officiis autem, nostrum, velit non eum eius enim quaerat
+                nulla minus error. Repudiandae necessitatibus vitae aut officiis
+                eum quisquam?
+              </p>
+            </div>
           </div>
         </div>
       </section>
       <section class="row py-md-5 py-sm-2 section-3">
         <div class="container">
           <div class="row py-md-5 py-sm-2 d-flex justify-content-center">
-            <div class="col-sm-12 col-md-5 sec3-col mx-md-4 py-4">
+            <div class="col-sm-12 col-md-4 sec3-col mx-md-5 py-4">
               <div class="row">
                 <div class="col">
                   <h2 class="headings heading2-sec3 text-center">Education</h2>
@@ -114,7 +117,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-12 col-md-5 sec3-col mx-md-4 py-4">
+            <div class="col-sm-12 col-md-4 sec3-col mx-md-5 py-4">
               <div class="row">
                 <div class="col-12">
                   <h2 class="headings heading2-sec3 text-center">Services</h2>
@@ -153,8 +156,11 @@
           </div>
         </div>
       </section>
-      <section id="p-img2" class="row d-flex align-items-center">
-        <div class="col-12 text-center">
+      <section
+        id="p-img2"
+        class="row d-flex align-items-center justify-content-center"
+      >
+        <div class="col-12 col-md-6 col-sec4 text-center">
           <h1 class="heading1-sec4">
             The single biggest problem in communication is the illusion that it
             has taken place
@@ -178,8 +184,8 @@
                   >
                     <div class="card" style="width: 18rem;">
                       <img
-                        class="card-img-top"
-                        src="./images/pimg1.jpeg"
+                        class="card-img-top img-sec5"
+                        src="./images/pexels-photo-247791.png"
                         alt="Card image cap"
                       />
                       <div class="card-body">
@@ -198,8 +204,8 @@
                   >
                     <div class="card" style="width: 18rem;">
                       <img
-                        class="card-img-top"
-                        src="./images/pimg1.jpeg"
+                        class="card-img-top img-sec5"
+                        src="./images/pexels-photo-326424.jpeg"
                         alt="Card image cap"
                       />
                       <div class="card-body">
@@ -218,8 +224,8 @@
                   >
                     <div class="card" style="width: 18rem;">
                       <img
-                        class="card-img-top"
-                        src="./images/pimg1.jpeg"
+                        class="card-img-top img-sec5"
+                        src="./images/pexels-photo-326503.jpeg"
                         alt="Card image cap"
                       />
                       <div class="card-body">
@@ -240,8 +246,8 @@
                   >
                     <div class="card" style="width: 18rem;">
                       <img
-                        class="card-img-top"
-                        src="./images/pimg1.jpeg"
+                        class="card-img-top img-sec5"
+                        src="./images/pexels-photo-545331.jpeg"
                         alt="Card image cap"
                       />
                       <div class="card-body">
@@ -260,8 +266,8 @@
                   >
                     <div class="card" style="width: 18rem;">
                       <img
-                        class="card-img-top"
-                        src="./images/pimg1.jpeg"
+                        class="card-img-top img-sec5"
+                        src="./images/pexels-photo-669615.jpeg"
                         alt="Card image cap"
                       />
                       <div class="card-body">
@@ -280,7 +286,7 @@
                   >
                     <div class="card" style="width: 18rem;">
                       <img
-                        class="card-img-top"
+                        class="card-img-top img-sec5"
                         src="./images/pimg1.jpeg"
                         alt="Card image cap"
                       />
@@ -313,7 +319,7 @@
               </div>
               <div class="row">
                 <div class="col-12 d-flex justify-content-center my-4">
-                  <ul class="contact-details">
+                  <ul class="contact-details sec6-ul">
                     <li>28 Fandor Way</li>
                     <li>Brampton, Canada</li>
                     <li>+1 7057337875</li>
@@ -376,36 +382,55 @@
           </div>
         </div>
       </section>
-      <section class="row py-md-5 py-sm-2 section-7">
+      <section class="row py-md-4 py-sm-2 section-7">
         <div class="col-12">
           <div class="container d-flex flex-column align-items-center">
             <div class="row">
               <div class="col-12">
-                <ul class="list-unstyled d-flex">
+                <ul class="list-unstyled d-flex m-0">
                   <li>
-                    <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    <a href="#"
+                      ><ion-icon
+                        class="icon-sec7"
+                        name="logo-linkedin"
+                      ></ion-icon
+                    ></a>
                   </li>
                   <li>
                     <a href="#"
-                      ><ion-icon name="logo-facebook">Icon</ion-icon></a
+                      ><ion-icon class="icon-sec7" name="logo-facebook"
+                        >Icon</ion-icon
+                      ></a
                     >
                   </li>
                   <li>
-                    <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    <a href="#"
+                      ><ion-icon class="icon-sec7" name="logo-twitter"
+                        >Icon</ion-icon
+                      ></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><ion-icon
+                        class="icon-sec7"
+                        name="logo-instagram"
+                      ></ion-icon
+                    ></a>
                   </li>
                 </ul>
               </div>
             </div>
             <div class="row">
               <div class="col-12">
-                <p class="lead">
+                <p class="lead sec7-p m-0">
                   &copy; Copyright Reserved
                 </p>
               </div>
             </div>
             <div class="row">
               <div class="col-12">
-                <p class="lead">Designed by PR</p>
+                <p class="lead sec7-p m-0">Designed by PR</p>
               </div>
             </div>
           </div>
