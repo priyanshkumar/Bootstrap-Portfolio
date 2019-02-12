@@ -1,5 +1,7 @@
 body {
   background-color: #ffffff;
+  font-family: "Ropa Sans", sans-serif;
+  color: #3d3e3b;
 }
 
 #hero {
@@ -15,7 +17,7 @@ body {
 }
 
 .nav-div {
-  width: 25rem;
+  width: 20rem;
 }
 
 .nav-bar {
@@ -28,6 +30,11 @@ body {
 .nav-bar a {
   color: white;
   text-decoration: none;
+}
+
+.nav-brand {
+  font-family: "Staatliches", cursive;
+  letter-spacing: 4px;
 }
 
 .heading-1 {
@@ -51,13 +58,13 @@ body {
 
 .img-bio {
   width: 18rem;
-  height: 25rem;
+  height: 19rem;
 }
 
 .bg-img {
   width: 18rem;
-  height: 25rem;
-  border: 1rem solid #dddddd;
+  height: 23rem;
+  border: 1rem solid #28313e;
 }
 
 .section-3 {
@@ -70,15 +77,13 @@ body {
 
 .heading2-sec3 {
   position: relative;
+  font-family: "Bree Serif", serif;
+  color: #2b2828;
 }
 
-.heading2-sec3::before {
-  content: "";
-  position: absolute;
-  height: 3px;
-  background-color: #0078ff;
-  width: 100px;
-  bottom: -12px;
+.h2-sec3 {
+  border-bottom: 3px solid #0078ff;
+  padding-bottom: 3px;
 }
 
 #p-img2 {
@@ -94,15 +99,20 @@ body {
 }
 
 .heading1-sec4 {
+  font-family: "Satisfy", cursive;
   font-size: 2.2rem;
   color: #ffffff;
 }
 
 .col-sec4 {
-  background-color: rgba(0, 0, 0, 0.677);
+  background-color: rgba(0, 0, 0, 0.733);
   padding: 1rem;
 }
 
+.heading5-sec3 {
+  font-family: "Bree Serif", serif;
+  color: #2b2828;
+}
 .img-sec5 {
   height: 190px;
 }
@@ -139,7 +149,7 @@ ion-icon {
   background-color: transparent;
 }
 
-@media (max-width: 385px) {
+/* @media (max-width: 385px) {
   .img-bio {
     width: 15rem;
     height: 18rem;
@@ -149,4 +159,4 @@ ion-icon {
     height: 18rem;
     border: none;
   }
-}
+} */
