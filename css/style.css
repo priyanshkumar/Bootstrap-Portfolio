@@ -38,8 +38,6 @@ body {
 }
 
 .heading-1 {
-  letter-spacing: 0.8rem;
-  font-size: 4.2em;
   font-family: "Staatliches", cursive;
   background-color: white;
   color: #333333;
@@ -52,7 +50,7 @@ body {
 }
 .heading-2 {
   color: #ffffff;
-  font-size: 2.4em;
+  font-size: 2.4rem;
   font-family: "Staatliches", cursive;
 }
 
@@ -149,7 +147,7 @@ ion-icon {
   background-color: transparent;
 }
 
-/* @media (max-width: 385px) {
+@media (max-width: 385px) {
   .img-bio {
     width: 15rem;
     height: 18rem;
@@ -159,4 +157,4 @@ ion-icon {
     height: 18rem;
     border: none;
   }
-} */
+}
