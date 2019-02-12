@@ -2,6 +2,7 @@ body {
   background-color: #ffffff;
   font-family: "Ropa Sans", sans-serif;
   color: #3d3e3b;
+  font-size: 1.2em;
 }
 
 #hero {
@@ -17,13 +18,13 @@ body {
 }
 
 .nav-div {
-  width: 20rem;
+  width: 22rem;
 }
 
 .nav-bar {
   z-index: 1;
   width: 95%;
-  font-size: 1.2rem;
+  font-size: 1.2em;
   font-weight: 600;
 }
 
@@ -38,6 +39,8 @@ body {
 }
 
 .heading-1 {
+  letter-spacing: 0.8rem;
+  font-size: 4.2rem;
   font-family: "Staatliches", cursive;
   background-color: white;
   color: #333333;
@@ -147,14 +150,26 @@ ion-icon {
   background-color: transparent;
 }
 
-@media (max-width: 385px) {
+@media (max-width: 768px) {
+  /* section1 */
+  #hero {
+    background-attachment: scroll;
+  }
+
+  .heading-1 {
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+  }
+
+  /* section2 */
   .img-bio {
     width: 15rem;
-    height: 18rem;
+    height: 15rem;
   }
+
   .bg-img {
-    width: 15rem;
-    height: 18rem;
-    border: none;
+    width: 17rem;
+    height: 17rem;
+    border: 1rem solid #28313e;
   }
 }
