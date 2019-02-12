@@ -22,10 +22,12 @@ body {
 }
 
 .nav-bar {
+  background-color: #242424;
   z-index: 1;
-  width: 95%;
+  width: 100%;
   font-size: 1.2em;
   font-weight: 600;
+  opacity: 0.9;
 }
 
 .nav-bar a {
