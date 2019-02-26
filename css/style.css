@@ -155,6 +155,7 @@ ion-icon {
 @media (max-width: 768px) {
   /* section1 */
   .nav-bar {
+    width: 98.5%;
     font-size: 0.9em;
   }
 
