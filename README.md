@@ -18,18 +18,25 @@ molestiae, praesentium
 ### Education
 
 #### University of Toronto
+```
 Jan 2019 - Present
 Coding Bootcamp
+```
 
 #### Georgian College
+```
 Jan 2017 - Present
 Computer Programmer - COPR
+```
 
 #### Vatsalya International School
+```
 April 2014 - April 2016
 Higher Secondary
+```
 
-### Get in touch```
+### Get in touch
+```
 28 Fandor Way
 Brampton, Canada
 +1 (705) 7337875
