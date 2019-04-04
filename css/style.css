@@ -74,6 +74,7 @@ body {
 }
 
 .bio-content {
+  border-radius: 4px;
   background: #ffffff;
 }
 
