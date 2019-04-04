@@ -14,7 +14,9 @@ body {
 
   background-attachment: fixed;
 
-  height: 100vh;
+  height: 115vh;
+
+  z-index: -1;
 }
 
 .nav-div {
@@ -64,18 +66,32 @@ body {
   height: 19rem;
 }
 
-.bg-img {
-  width: 18rem;
-  height: 23rem;
-  border: 1rem solid #28313e;
+.img-bio-vh {
+  height: 55vh;
 }
 
-.section-3 {
-  background-color: #f7f7f7;
+.bio-content {
+  background: #ffffff;
+}
+
+.bg-img {
+  width: 18rem;
+  height: 19rem;
+  border: 1rem solid #ffffff;
+  box-shadow: 34px 46px 50px black;
+}
+
+.sec2-css {
+  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56),
+    0 12px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  background-color: #545454;
+  margin-top: -5%;
 }
 
 .sec3-col {
   background-color: #ffffff;
+  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56),
+    0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 
 .heading2-sec3 {
@@ -108,7 +124,7 @@ body {
 }
 
 .col-sec4 {
-  background-color: rgba(0, 0, 0, 0.733);
+  background-color: rgba(63, 58, 58, 0.733);
   padding: 1rem;
 }
 
