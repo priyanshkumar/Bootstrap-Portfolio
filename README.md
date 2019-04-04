@@ -29,8 +29,7 @@ Computer Programmer - COPR
 April 2014 - April 2016
 Higher Secondary
 
-### Get in touch
-```
+### Get in touch```
 28 Fandor Way
 Brampton, Canada
 +1 (705) 7337875
