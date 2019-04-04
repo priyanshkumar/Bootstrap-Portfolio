@@ -64,6 +64,7 @@ body {
 }
 
 .img-bio {
+  border-radius: 12px;
   width: 18rem;
   height: 19rem;
 }
@@ -79,6 +80,7 @@ body {
 .bg-img {
   width: 18rem;
   height: 19rem;
+  border-radius: 12px;
   border: 1rem solid #ffffff;
   box-shadow: 34px 46px 50px black;
 }
