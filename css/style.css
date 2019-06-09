@@ -13,20 +13,6 @@ body {
   scroll-behavior: smooth;
 }
 
-#hero {
-  background: url("../images/bg-layout1.jpg");
-
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-
-  background-attachment: fixed;
-
-  height: 115vh;
-
-  z-index: -1;
-}
-
 .nav-bar {
   background-color: #ffffff;
   z-index: 1;
