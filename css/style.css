@@ -187,9 +187,6 @@ ion-icon {
   color: #ffffff;
   padding: 3px;
 }
-.bg-trans {
-  background-color: transparent;
-}
 
 @media (max-width: 768px) {
   /* section1 */

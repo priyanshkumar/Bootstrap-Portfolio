@@ -1,0 +1,221 @@
+/* custom styling for body */
+body {
+  background-color: #ffffff;
+  font-family: "Ropa Sans", sans-serif;
+  color: #3d3e3b;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+/* nav bar default style */
+nav {
+  background-color: #ffffff;
+  z-index: 3;
+}
+
+/* logo on nav bar */
+.logo img {
+  width: 3rem;
+}
+
+/* custom styles for video */
+.video-wrap {
+  z-index: -1;
+  position: relative;
+  overflow: hidden;
+  width: auto !important;
+  height: 120vh !important;
+}
+
+video {
+  width: 100vw;
+}
+/* header text */
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+
+/* styling for text sectiuon */
+.text h1 {
+  font-family: "Staatliches", cursive;
+  font-size: 5rem;
+  color: #000000;
+  opacity: 0.9;
+}
+
+.text h2 {
+  font-family: "Staatliches", cursive;
+  font-size: 3rem;
+  color: #000000;
+}
+
+/* about section img */
+.img-bio {
+  border-radius: 12px;
+  width: 18rem;
+  height: 19rem;
+}
+
+.img-bio-vh {
+  height: 55vh;
+}
+
+/* about section content */
+.bio-content {
+  border-radius: 4px;
+  background: #ffffff;
+}
+
+.bio-content p {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+/* about section img background */
+.bg-img {
+  width: 18rem;
+  height: 19rem;
+  border-radius: 12px;
+  border: 1rem solid #ffffff;
+  box-shadow: 34px 46px 50px black;
+}
+
+/* about section background */
+.sec2-css {
+  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56),
+    0 12px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  background-color: #545454;
+  margin-top: -5%;
+}
+
+/* skills section education */
+#education .education-background {
+  background-color: #ffffff;
+  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56),
+    0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+#education h2 {
+  font-family: "Bree Serif", serif;
+  color: #2b2828;
+}
+
+#education .heading-border {
+  border-bottom: 3px solid #0078ff;
+  padding-bottom: 3px;
+}
+
+#education .subheading {
+  font-family: "Bree Serif", serif;
+  color: #2b2828;
+}
+
+#education p {
+  margin-bottom: 1rem;
+}
+
+/* Quote Section */
+#quote {
+  background: url("../images/pexels-photo-169573.jpeg");
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+
+  height: 80vh;
+}
+
+.quote-content h1 {
+  font-family: "Satisfy", cursive;
+  font-size: 2.2rem;
+  color: #ffffff;
+}
+
+#quote h1 {
+  background-color: rgba(63, 58, 58, 0.733);
+  padding: 1rem;
+}
+
+/* portfolio-background section */
+.portfolio-background {
+  background-image: url("../images/bg-layout2.jpg");
+  background-repeat: no-repeat;
+
+  background-position: center;
+  background-size: cover;
+}
+
+/* portfolio-heading */
+#portfolio h2 {
+  font-family: "Bree Serif", serif;
+  color: #2b2828;
+}
+
+#portfolio .heading-border {
+  border-bottom: 3px solid #0078ff;
+  padding-bottom: 3px;
+}
+
+/* portfolio-card */
+#portfolio .card {
+  width: 18rem;
+  border-radius: 12px;
+  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56),
+    0 12px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+/* potfolio-card-image */
+
+#portfolio .card-image {
+  margin-left: 1rem;
+  height: 190px;
+  width: 16rem;
+  border-radius: 20px;
+  margin-top: -10%;
+  box-shadow: 9px 9px 14px 0px black;
+}
+
+/* Contact-background */
+.contact-background {
+  background-color: #f7f7f7;
+}
+
+/* Contact-heading */
+#contact h2 {
+  font-family: "Bree Serif", serif;
+  color: #2b2828;
+}
+
+#contact .heading-border {
+  border-bottom: 3px solid #0078ff;
+  padding-bottom: 3px;
+}
+
+/* contact-content */
+#contact ul {
+  line-height: 2rem;
+}
+
+/* footer */
+.footer {
+  background-color: #424242;
+}
+
+/* footer ion-icon */
+.footer ion-icon {
+  color: #ffffff;
+  padding: 3px;
+  font-size: 30px;
+}
+
+/* footer pargraph */
+.footer p {
+  color: #ffffff;
+  font-size: 1rem;
+}
