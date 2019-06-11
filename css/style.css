@@ -14,7 +14,7 @@ body {
 }
 
 .nav-bar {
-  background-color: #ffffff;
+  background-color: hsl(0, 0%, 100%);
   z-index: 1;
   width: 98.8%;
   font-size: 0.8em;
