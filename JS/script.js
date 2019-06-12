@@ -1,7 +1,4 @@
-window.sr = ScrollReveal();
-
-sr.reveal(".nav-bar", {
-  duration: 2000,
-  origin: "bottom"
+var scroll = new SmoothScroll('nav a[href*="#"]', {
+  speed: 1000,
+  speedAsDuration: true
 });
-console.log("hello");
