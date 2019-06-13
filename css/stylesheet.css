@@ -13,14 +13,26 @@ nav {
   z-index: 3;
 }
 
-/* logo on nav bar */
-.logo img {
-  width: 44px;
-  height: 44px;
+/* nav heading logo */
+nav h4 {
+  font-family: "Archivo Black", sans-serif;
+}
+
+/* logo anchor*/
+.logo a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #ff6c3c;
+  transition-duration: 1000ms;
+  transition-property: all;
+}
+.logo a:hover {
+  background-color: #3366a5;
+  transform: rotate(360deg);
 }
 
 /* nav bar anchor links */
-nav a {
+.nav-links a {
   font-size: 0.8em;
   font-weight: 600;
   /* font-family: "Roboto", sans-serif; */
@@ -33,8 +45,8 @@ nav a {
 .nav-links a:hover {
   border-bottom: 2px solid #0078ff;
   padding-bottom: 3px;
+  transition-duration: 1000ms;
   text-decoration: none;
-  color: #333333;
 }
 /* custom styles for video */
 .video-wrap {
@@ -63,27 +75,45 @@ video {
   font-size: 5rem;
   color: #000000;
   opacity: 0.9;
+  animation: text 3s 1;
+}
+
+@keyframes text {
+  0% {
+    margin-bottom: -40px;
+  }
+  30% {
+    margin-bottom: -40px;
+    letter-spacing: 20px;
+  }
+  85%{
+    margin-bottom: -40px;
+    letter-spacing: 9px;
+  }
 }
 
 .text h2 {
   font-family: "Staatliches", cursive;
   font-size: 3rem;
   color: #000000;
+  animation-name: text2;
+  animation-delay: 2s;
 }
 
+@keyframes
 /* fixing abou navigation on click */
 #about {
   top: 93%;
 }
 
 /* about section img */
-.img-bio {
+.myimage img {
   border-radius: 12px;
   width: 18rem;
   height: 19rem;
 }
 
-.img-bio-vh {
+.myimage {
   height: 55vh;
 }
 
@@ -99,7 +129,7 @@ video {
 }
 
 /* about section img background */
-.bg-img {
+.myimage-background {
   width: 18rem;
   height: 19rem;
   border-radius: 12px;
