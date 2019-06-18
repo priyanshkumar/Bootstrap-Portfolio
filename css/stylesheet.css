@@ -21,6 +21,8 @@ nav h4 {
 /* logo anchor*/
 .logo a {
   text-decoration: none;
+  border-radius: 50%;
+  height: 50px;
   color: #ffffff;
   background-color: #ff6c3c;
   transition-duration: 1000ms;
@@ -29,6 +31,7 @@ nav h4 {
 .logo a:hover {
   background-color: #3366a5;
   transform: rotate(360deg);
+  margin-left: 20px;
 }
 
 /* nav bar anchor links */
@@ -86,7 +89,7 @@ video {
     margin-bottom: -40px;
     letter-spacing: 20px;
   }
-  85%{
+  85% {
     margin-bottom: -40px;
     letter-spacing: 9px;
   }
@@ -100,7 +103,6 @@ video {
   animation-delay: 2s;
 }
 
-@keyframes
 /* fixing abou navigation on click */
 #about {
   top: 93%;
@@ -108,9 +110,10 @@ video {
 
 /* about section img */
 .myimage img {
-  border-radius: 12px;
-  width: 18rem;
-  height: 19rem;
+  width: 16rem;
+  height: 17rem;
+  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56),
+    0 12px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 
 .myimage {
@@ -130,15 +133,15 @@ video {
 
 /* about section img background */
 .myimage-background {
-  width: 18rem;
-  height: 19rem;
-  border-radius: 12px;
-  border: 1rem solid #ffffff;
-  box-shadow: 34px 46px 50px black;
+  width: 21rem;
+  height: 22rem;
+  border: 1.2rem solid #ffffff;
+  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.86),
+    0 12px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 
 /* about section background */
-.sec2-css {
+.about {
   box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56),
     0 12px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
   background-color: #545454;
@@ -215,9 +218,34 @@ video {
   padding-bottom: 3px;
 }
 
+/* portfolio card-container */
+#portfolio .card-container {
+  position: relative;
+  width: 18rem;
+  perspective: 200rem;
+  height: 365px;
+}
+
+#portfolio .card-container:hover .card-front {
+  transform: rotateY(180deg);
+}
+
+/* card back */
+#portfolio .card-back {
+  transform: rotateY(180deg);
+}
+
+#portfolio .card-container:hover .card-back {
+  transform: rotateY(0deg);
+}
+
 /* portfolio-card */
 #portfolio .card {
-  width: 18rem;
+  position: absolute;
+  transition: all 0.9s;
+  height: 100%;
+  width: 100%;
+  backface-visibility: hidden;
   border-radius: 12px;
   box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56),
     0 12px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
@@ -231,7 +259,7 @@ video {
   width: 16rem;
   border-radius: 20px;
   margin-top: -10%;
-  box-shadow: 9px 9px 14px 0px black;
+  box-shadow: 0px 3px 10px 0px black;
 }
 
 /* Contact-background */
